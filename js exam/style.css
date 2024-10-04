@@ -1,0 +1,60 @@
+body
+{
+    font-size: 25px;
+}
+nav
+{
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main
+
+{
+    display: flex;
+    margin-top: 50px;
+}
+.container
+{
+    width: 50%;
+    height: auto;
+  
+}
+.container2
+{
+    width: 50%;
+    height: auto;
+   
+}
+.form
+{
+    width: 35%;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 30px auto;
+    background-color: aliceblue;
+}
+.form button{
+    display: block;
+    padding: 10px 20px;
+   margin: 0px  20px;
+   width: 75%;
+   background-color: #28caf3;
+   color: black;
+}
+input{
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 20px;
+}
+nav h1
+{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}

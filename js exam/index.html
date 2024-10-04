@@ -1,0 +1,136 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="normalize.css" />
+      <link rel="stylesheet" href="skeleton.css" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Shark Tank India</title>
+    </head>
+
+    <body>
+      <nav>
+        <div>
+          <a href="index.html" id="home">
+          <h1>FORM</h1>
+          </a>
+        </div>
+  
+      </nav>
+
+
+  <div class="main">
+      <div class="container">
+          <div class="row">
+            <div class="column"></div>
+          </div>
+    
+          <div class="row">
+            <div class="columns four sidebar-one" id="sidebar-one">
+            
+              <div class="form">
+                  <h1>Add Pitch</h1>
+                  <input
+                    type="text"
+                    id="pitch-title"
+                    class="u-full-width"
+                    placeholder="Title"
+                  />
+                  <input
+                    type="text"
+                    id="pitch-image"
+                    class="u-full-width"
+                    placeholder="Image Url"
+                  />
+                  <input
+                    type="text"
+                    id="pitch-category"
+                    class="u-full-width"
+                    placeholder="Category"
+                  />
+                  <input
+                    type="text"
+                    id="pitch-founder"
+                    class="u-full-width"
+                    placeholder="Founder"
+                  />
+                  <input
+                    type="number"
+                    id="pitch-price"
+                    class="u-full-width"
+                    placeholder="Pitch Price"
+                  />
+                
+                  <button id="add-pitch" class="u-full-width button button-primary">
+                    Add Pitch
+                  </button>
+              </div>
+          
+    
+            <div class="form">
+              <h1>Update all fields of Pitch</h1>
+              <input
+                type="text"
+                id="update-pitch-id"
+                class="u-full-width"
+                placeholder="ID"
+              />
+              <input
+                type="text"
+                id="update-pitch-title"
+                class="u-full-width"
+                placeholder="Title"
+              />
+              <input
+                type="text"
+                id="update-pitch-image"
+                class="u-full-width"
+                placeholder="Image Url"
+              />
+              <input
+                type="text"
+                id="update-pitch-category"
+                class="u-full-width"
+                placeholder="Category"
+              />
+              <input
+                type="text"
+                id="update-pitch-founder"
+                class="u-full-width"
+                placeholder="Founder"
+              />
+              <input
+                type="number"
+                id="update-pitch-price"
+                class="u-full-width"
+                placeholder="Pitch Price"
+              />
+            
+              <button id="update-pitch" class="u-full-width button button-primary">
+                Update all fields
+              </button>
+            </div>
+      
+    
+            </div>
+          </div>
+      </div>
+      <div class="container2">
+          <div class="row">
+              <div class="data-list-wrapper" id="data-list-wrapper">
+                  <!-- append card-list that includes card here -->
+                  <div class="card-list">
+      
+                    </div>
+                </div>
+          </div>
+
+      </div>
+      </div>
+
+
+      <script src="main.js" type="module"></script>
+    </body>
+  </html>
